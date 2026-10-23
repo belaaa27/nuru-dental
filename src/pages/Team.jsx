@@ -16,7 +16,7 @@ export default function Team() {
         {/* Background Image Layer */}
         <div className="absolute inset-0 -z-20 bg-[#25352C]/5">
           <img
-            src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=1600"
+            src="/images/team3.jpg"
             alt=""
             aria-hidden="true"
             className="h-full w-full object-cover object-center grayscale-[15%]"
@@ -24,7 +24,7 @@ export default function Team() {
         </div>
 
         {/* Ivory Soft Gradient Overlay Layer */}
-        <div className="absolute inset-0 -z-10 bg-gradient-to-r from-[#F7F5EE] via-[#F7F5EE]/95 to-[#F7F5EE]/60" />
+        <div className="absolute inset-0 -z-10 bg-gradient-to-r from-[#F7F5EE] via-[#F7F5EE]/75 to-[#F7F5EE]/20" />
 
         <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24">
           <div className="max-w-3xl space-y-4">
@@ -271,21 +271,26 @@ export default function Team() {
       </section>
 
       {/* 5. Closing Contact CTA Panel */}
-      <section className="py-12 lg:py-16 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-5xl mx-auto bg-[#25352C] text-[#F7F5EE] rounded-lg p-8 sm:p-12 text-center space-y-4 shadow-md border border-[#315747]/20">
-          <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl text-[#F7F5EE]">
+      <section className="px-4 py-10 sm:px-6 lg:px-8 lg:py-12">
+        <div className="mx-auto max-w-5xl rounded-xl border border-[#315747]/10 bg-[#E8EDE3] px-6 py-8 text-center sm:px-10 sm:py-10">
+          <h2 className="mx-auto max-w-2xl font-display text-2xl font-normal leading-tight text-[#25352C] sm:text-3xl lg:text-4xl">
             Would you like to schedule an introductory visit?
           </h2>
-          <p className="text-xs sm:text-sm text-[#F7F5EE]/85 max-w-lg mx-auto leading-relaxed">
+
+          <p className="mx-auto mt-3 max-w-lg text-sm leading-relaxed text-[#25352C]/75 sm:text-base">
             Reach out to our team to submit an inquiry or learn more about
             consultation options.
           </p>
-          <div className="pt-3">
+
+          <div className="mt-6">
             <Link
               to="/contact"
-              className="inline-flex items-center justify-center px-7 py-3 text-xs sm:text-sm font-semibold text-[#25352C] bg-[#F7F5EE] hover:bg-[#E8EDE3] transition-colors rounded-sm focus:outline-none focus:ring-2 focus:ring-[#D7CBB9] focus:ring-offset-2 focus:ring-offset-[#25352C]"
+              className="inline-flex items-center justify-center rounded-md bg-[#315747] px-6 py-3 text-sm font-medium text-[#F7F5EE] transition-colors hover:bg-[#25352C] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#315747] focus-visible:ring-offset-2 focus-visible:ring-offset-[#E8EDE3]"
             >
               Contact Studio
+              <span aria-hidden="true" className="ml-2">
+                &rarr;
+              </span>
             </Link>
           </div>
         </div>

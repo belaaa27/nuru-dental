@@ -4,8 +4,7 @@ export const teamMembers = [
     name: "Sample Profile A",
     role: "Lead General Practitioner (Demo)",
     bio: "Demonstration bio highlighting calm patient communication and restorative techniques in an unhurried setting.",
-    image:
-      "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=800",
+    image: "/images/team.jpg",
   },
   {
     id: "dr-chen",
@@ -20,7 +19,6 @@ export const teamMembers = [
     name: "Sample Profile C",
     role: "Dental Hygienist (Demo)",
     bio: "Demonstration bio emphasizing gentle hygiene techniques and individual patient comfort.",
-    image:
-      "https://images.unsplash.com/photo-1582750433449-648ed127bb54?auto=format&fit=crop&q=80&w=800",
+    image: "/images/team1.jpg",
   },
 ];
